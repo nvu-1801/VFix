@@ -4,8 +4,8 @@ import {
   profile,
   promoteToAdmin, // Import the new controller function
 } from '../controllers/user.controller.js';
-import { authMiddleware } from '../middlewares/auth.middleware.ts';
-import { verifyAdmin } from '../middlewares/admin.middleware.ts'; // Assuming you have an admin verification middleware
+import { authMiddleware } from '../middlewares/auth.middleware';
+import { verifyAdmin } from '../middlewares/admin.middleware'; // Assuming you have an admin verification middleware
 
 export default async function userRoutes(fastify: FastifyInstance) {
   // Public route for user registration
