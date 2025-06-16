@@ -1,0 +1,64 @@
+# =====================================
+# 🔐 BẢO MẬT – thông tin nhạy cảm
+# =====================================
+.env
+secrets/
+*.key
+*.pem
+*.crt
+
+# =====================================
+# 🛠️ Node.js
+# =====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# =====================================
+# 🔨 TypeScript
+# =====================================
+dist/
+lib/
+*.tsbuildinfo
+
+# =====================================
+# 🧪 Test
+# =====================================
+coverage/
+.vscode/
+tests/**/*.spec.ts
+tests/**/*.test.ts
+
+# =====================================
+# 🗂 Firebase & Emulator
+# =====================================
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+storage-debug.log
+firebase-debug.*
+firebase-export.json
+.firebase/
+firebase.json
+
+# =====================================
+# 💻 IDE Files
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# =====================================
+# 💡 Misc
+# =====================================
+*.log
+*.tmp
+*.local
+*.cache
