@@ -40,8 +40,8 @@ fastify.get("/", async (request, reply) => {
 
 
 // ✅ Register modular route handlers
-import userRoutes from "./routes/user.routes.ts";
-import productRoutes from "./routes/product.routes.ts";
+import userRoutes from "./routes/user.routes";
+import productRoutes from "./routes/product.routes";
 
 await fastify.register(userRoutes, { prefix: '/api/users' });
 await fastify.register(productRoutes, { prefix: '/api/products' });

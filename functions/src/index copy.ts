@@ -56,3 +56,9 @@
 //   }
 //   console.log(`🚀 Server running at ${address}`);
 // });
+
+
+    // "promoteToAdmin": "node --import ./register-loader.mjs scripts/promoteToAdmin.ts",
+    // "start": "node --import ./register-loader.mjs src/index.ts",
+    // "dev": "node --import ./register-loader.mjs  src/index.ts",
+    // "seed": "node --import ./register-loader.mjs src/seed.ts"

@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
-   "target": "ES2022",
+    "target": "ES2022",
     "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "moduleResolution": "Node",
+    "outDir": "dist",
     "esModuleInterop": true,
     "strict": true,
     "resolveJsonModule": true,
     "types": ["node"]
   },
-  "include": ["src"],
-  "compileOnSave": true
+  "include": ["src"]
 }

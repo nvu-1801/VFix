@@ -7,10 +7,10 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "build": "tsc",
-    "promoteToAdmin": "node --import ./register-loader.mjs scripts/promoteToAdmin.ts",
-    "start": "node --import ./register-loader.mjs src/index.ts",
-    "dev": "node --import ./register-loader.mjs  src/index.ts",
-    "seed": "node --import ./register-loader.mjs src/seed.ts"
+    "start": "node --enable-source-maps dist/index.js",
+    "dev": "ts-node-esm src/index.ts",
+    "seed": "ts-node-esm src/seed.ts",
+    "promoteToAdmin": "ts-node-esm scripts/promoteToAdmin.ts"
   },
   "keywords": [],
   "author": "",
