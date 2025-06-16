@@ -1,6 +1,8 @@
 {
   "name": "vfix-fullstack",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
     "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\""
   },
   "devDependencies": {
